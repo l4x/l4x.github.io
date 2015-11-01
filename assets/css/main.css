@@ -1,0 +1,23 @@
+md-sidenav {
+	background-color: #512DA8;
+	width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+}
+
+md-content {
+	/*background-color:#EDE7F6;*/
+}
+
+md-sidenav.md-locked-open {
+	width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+}
+md-sidenav>.md-button.active {
+	background-color: #673AB7;
+}
+
+md-whiteframe {
+	background-color: #EDE7F6;
+}

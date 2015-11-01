@@ -1,0 +1,59 @@
+<md-toolbar layout="row" class="md-primary md-hue-2">
+    <div class="md-toolbar-tools">
+      <md-button ng-click="main.toggleSidenav('left')" hide-gt-sm class="md-icon-button">
+        <md-icon aria-label="Menu" md-svg-icon="https://s3-us-west-2.amazonaws.com/s.cdpn.io/68133/menu.svg">
+        </md-icon>
+      </md-button>
+      <h1>Work</h1>
+    </div>
+</md-toolbar>
+
+<md-content class="md-padding" layout="column">
+
+	<div layout="row" layout-align="center center" class="md-margin">
+		<md-whiteframe class="md-whiteframe-2dp md-padding" layout="row" layout-wrap>
+			<md-input-container>
+				<label>Please enter work code</label>
+				<input type="text">
+			</md-input-container>
+			<md-button>
+				GO!
+			</md-button>
+		</md-whiteframe>
+	</div>
+
+	<md-whiteframe class="md-padding md-margin">
+		Project Title: 
+	</md-whiteframe>
+
+	<md-whiteframe class="md-padding md-margin">
+		Description: 
+	</md-whiteframe>
+
+	<md-whiteframe class="md-padding md-margin">
+		Type: 
+	</md-whiteframe>
+
+	<md-whiteframe class="md-padding md-margin">
+		Started: 
+	</md-whiteframe>
+
+	<md-whiteframe class="md-padding md-margin">
+		Ended: 
+	</md-whiteframe>
+
+	<md-whiteframe class="md-padding md-margin">
+		Repository: 
+	</md-whiteframe>
+
+	<h6 class="md-subhead" layout layout-align="center">GO TO:</h6>
+
+	<div layout="row" layout-align="center center" layout-margin layout-wrap>
+		<md-button class="md-primary">Team</md-button>
+		<md-button class="md-primary">Stakeholders</md-button>
+		<md-button class="md-primary">Updates</md-button>
+		<md-button class="md-primary">Tasks</md-button>
+		<md-button class="md-primary">Forum</md-button>
+	</div>
+
+</md-content>
