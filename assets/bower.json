@@ -1,0 +1,31 @@
+{
+  "name": "L4X's Profile",
+  "homepage": "l4x.github.io",
+  "authors": [
+    "L4X <i.4m.l4x@gmail.com>"
+  ],
+  "description": "Portfolio",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "portfolio",
+    "profile",
+    "projects"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.7",
+    "angular-material": "~0.11.4",
+    "angular-ui-router": "~0.2.15"
+  }
+}
